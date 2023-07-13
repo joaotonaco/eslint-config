@@ -1,6 +1,6 @@
 {
   "name": "@synclab/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "ESLint configuration used by SyncLab.",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-hooks": "5.0.0-canary-7118f5dd7-20230705",
     "prettier": "^2.8.8"
   },
   "peerDependencies": {

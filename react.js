@@ -30,7 +30,6 @@ module.exports = {
 		"prettier/prettier": [
 			"error",
 			{
-				plugins: ["prettier-plugin-tailwindcss"],
 				printWidth: 80,
 				tabWidth: 2,
 				singleQuote: true,
@@ -38,7 +37,6 @@ module.exports = {
 				arrowParens: "always",
 				semi: true,
 				endOfLine: "auto",
-				tailwindFunctions: ["clsx", "cva"],
 			},
 		],
 		"react/react-in-jsx-scope": "off",

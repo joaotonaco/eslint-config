@@ -9,7 +9,8 @@ module.exports = {
 		"plugin:react-hooks/recommended",
 		"standard",
 		"plugin:prettier/recommended",
-		"plugin:import/recommended"
+		"plugin:import/recommended",
+		"plugin:import/typescript"
 	],
 	globals: {
 		React: "readonly",
@@ -58,6 +59,10 @@ module.exports = {
 	settings: {
 		react: {
 			version: "detect",
+		},
+		"import/resolver": {
+			typescript: true,
+			node: true
 		},
 		"import/parsers": {
 			[require.resolve("@typescript-eslint/parser")]: [".ts", ".tsx", ".d.ts"],

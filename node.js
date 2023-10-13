@@ -3,13 +3,13 @@ module.exports = {
 		es2021: true,
 		node: true,
 	},
-	extends: ["standard", "plugin:prettier/recommended"],
+	extends: ["standard", "plugin:prettier/recommended", "plugin:import/recommended"],
 	parser: "@typescript-eslint/parser",
 	parserOptions: {
 		ecmaVersion: "latest",
 		sourceType: "module",
 	},
-	plugins: ["@typescript-eslint"],
+	plugins: ["@typescript-eslint", "import"],
 	rules: {
 		"@typescript-eslint/no-unused-vars": [
 			1,

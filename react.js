@@ -9,6 +9,7 @@ module.exports = {
 		"plugin:react-hooks/recommended",
 		"standard",
 		"plugin:prettier/recommended",
+		"plugin:import/recommended"
 	],
 	globals: {
 		React: "readonly",
@@ -21,7 +22,7 @@ module.exports = {
 		ecmaVersion: "latest",
 		sourceType: "module",
 	},
-	plugins: ["react", "jsx-a11y", "@typescript-eslint"],
+	plugins: ["react", "jsx-a11y", "@typescript-eslint", "import"],
 	rules: {
 		"@typescript-eslint/no-unused-vars": [
 			1,

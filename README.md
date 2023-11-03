@@ -1,4 +1,4 @@
-# SyncLab ESLint config
+# ESLint config by @joaotonaco
 
 Inspired by [Rocketseat ESLint config](https://github.com/Rocketseat/eslint-config-rocketseat).
 
@@ -8,6 +8,7 @@ Inspired by [Rocketseat ESLint config](https://github.com/Rocketseat/eslint-conf
 - React plugin;
 - React Hooks plugin;
 - JSX a11y plugin;
+- Import plugin;
 - Prettier;
 
 ## Setup
@@ -15,15 +16,15 @@ Inspired by [Rocketseat ESLint config](https://github.com/Rocketseat/eslint-conf
 1. Install the dependencies
 
 ```bash
-npm i -D eslint @synclab/eslint-config
+npm i -D eslint @tonaco/eslint-config
 ```
 
 2. Create a `.eslintrc.json` file extending the config:
 
 ```json
 {
-  "extends": "@synclab/eslint-config/react"
-  // "extends": "@synclab/eslint-config/node"
+  "extends": "@tonaco/eslint-config/react"
+  // "extends": "@tonaco/eslint-config/node"
 }
 ```
 

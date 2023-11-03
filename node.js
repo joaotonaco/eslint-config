@@ -20,12 +20,30 @@ module.exports = {
 			{
 				printWidth: 80,
 				tabWidth: 2,
-				singleQuote: true,
+				singleQuote: false,
 				trailingComma: "all",
 				arrowParens: "always",
 				semi: true,
 			},
 		],
+		"import/order": [
+      "warn",
+      {
+        "groups": [
+          ["builtin", "external"],
+          "internal",
+          "type",
+          "parent",
+          ["sibling", "index"],
+          "object"
+        ],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
 	},
 	settings: {
 		"import/resolver": {
